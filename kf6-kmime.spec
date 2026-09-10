@@ -1,17 +1,17 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	6.29
+%define		kdeframever	6.30
 %define		qtver		6.10.0
 %define		kfname		kmime
 Summary:	KMime
 Name:		kf6-%{kfname}
-Version:	6.29.0
+Version:	6.30.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	8163ee41e712b70f72a52f6547975e35
+# Source0-md5:	dbcee69149ec2e4046d9453aca2bad8f
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Core-devel >= %{qtver}
 BuildRequires:	Qt6Test-devel >= 5.9.0
